@@ -12,4 +12,5 @@ public:
 	int density();
 	SparseMatrix* multiply(SparseMatrix* second);
 	~SparseMatrix();
+	//mish
 };
