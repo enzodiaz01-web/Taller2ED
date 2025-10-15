@@ -1,2 +1,9 @@
 # Taller2ED
-Se le ha solicitado a usted la construcción de un sistema de gestión de información académica para la universidad, donde se trata la información de los alumnos, cursos y notas.Este sistema debe implementar las siguientes funcionalidades: Gestión de alumnos, Gestión de cursos, Inscripción de cursos, Gestión de notas y Reportes.
+El proyecto consistirá en la implementación, desde cero, de una matriz poco poblada utilizando listas
+con nexos. Posteriormente, los alumnos deberán llevar a cabo un análisis exhaustivo que integre el
+estudio teórico con la experimentación. Se espera que calculen la complejidad de las operaciones
+fundamentales y, de manera paralela, realicen mediciones empíricas del consumo de tiempo y
+memoria.
+El producto final será un sistema funcional, acompañado de un informe técnico que documente los
+hallazgos del análisis. Dicho informe deberá incluir gráficos que ilustren la relación entre la densidad de
+la matriz y el rendimiento observado.
