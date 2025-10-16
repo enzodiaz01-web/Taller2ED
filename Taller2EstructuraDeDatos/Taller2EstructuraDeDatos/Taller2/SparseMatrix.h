@@ -12,5 +12,7 @@ public:
 	int density();
 	SparseMatrix* multiply(SparseMatrix* second);
 	~SparseMatrix();
-	//mish
+	double densidad(int filas, int columnas);
+	int getPosicion(int PosX, int PosY);
+	void deleteEnPosision(int PosX, int PosY);
 };
