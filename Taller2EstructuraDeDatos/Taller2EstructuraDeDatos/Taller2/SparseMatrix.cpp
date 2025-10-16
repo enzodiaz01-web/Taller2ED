@@ -103,4 +103,20 @@ double SparseMatrix::densidad(int filas, int columnas) {
     return densidad;
 }
 
-//Multiplicare con otra matriz poco poblada
+//Multiplicar con otra matriz poco poblada
+SparseMatrix* SparseMatrix::multiply(SparseMatrix* segunda) {
+    SparseMatrix* resultado = new SparseMatrix();
+    if (start == nullptr || segunda->start == nullptr) return resultado;
+	Nodo* currentA = start; 
+    while (currentA != nullptr) {
+        Nodo* currentB = segunda->start;
+        while (currentB != nullptr) {
+            if (currentA->y == currentB->x) {
+                int valorPrev = resultado->get(currentA->x, currentB->y);
+            }
+			currentB = currentB->next;  
+        }
+		currentA = currentA->next;
+    }
+	return resultado;   
+}
